@@ -1,0 +1,104 @@
+<!--<!DOCTYPE html>-->
+<!--<html>-->
+<!--<head>-->
+<!--  &lt;!&ndash;-->
+<!--    If you are serving your web app in a path other than the root, change the-->
+<!--    href value below to reflect the base path you are serving from.-->
+
+<!--    The path provided below has to start and end with a slash "/" in order for-->
+<!--    it to work correctly.-->
+
+<!--    For more details:-->
+<!--    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base-->
+
+<!--    This is a placeholder for base href that will be replaced by the value of-->
+<!--    the `&#45;&#45;base-href` argument provided to `flutter build`.-->
+<!--  &ndash;&gt;-->
+<!--  <base href="$FLUTTER_BASE_HREF">-->
+
+<!--  <meta charset="UTF-8">-->
+<!--  <meta content="IE=Edge" http-equiv="X-UA-Compatible">-->
+<!--  <meta name="description" content="A new Flutter project.">-->
+
+<!--  &lt;!&ndash; iOS meta tags & icons &ndash;&gt;-->
+<!--  <meta name="apple-mobile-web-app-capable" content="yes">-->
+<!--  <meta name="apple-mobile-web-app-status-bar-style" content="black">-->
+<!--  <meta name="apple-mobile-web-app-title" content="package_app">-->
+<!--  <link rel="apple-touch-icon" href="icons/icon-192.png">-->
+
+<!--  &lt;!&ndash; Favicon &ndash;&gt;-->
+<!--  <link rel="icon" type="image/png" href="icons/favicon.ico"/>-->
+
+<!--  <title>Flutter_Packages</title>-->
+<!--  <link rel="manifest" href="manifest.json">-->
+<!--</head>-->
+<!--<body>-->
+<!--  <script src="flutter_bootstrap.js" async></script>-->
+<!--</body>-->
+<!--</html>-->
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="package_app">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="icons/favicon.ico"/>
+
+  <title>Flutter_Packages</title>
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Add custom splash screen style -->
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #ffffff; /* Background color of splash screen */
+    }
+
+    #splash-screen {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #ffffff; /* Same as body color */
+    }
+
+    #splash-screen img {
+      width: 200px; /* Adjust the size of the splash image */
+    }
+  </style>
+</head>
+<body>
+<!-- Splash screen -->
+<div id="splash-screen">
+  <img src="icons/shop.png" alt="Splash Screen">
+</div>
+
+<!-- Flutter app -->
+<script src="flutter_bootstrap.js" async></script>
+
+<script>
+  // Hide the splash screen after Flutter is loaded
+  window.addEventListener('flutter-first-frame', function () {
+    document.getElementById('splash-screen').style.display = 'none';
+  });
+</script>
+</body>
+</html>
+
