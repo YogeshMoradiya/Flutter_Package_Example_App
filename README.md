@@ -39,8 +39,15 @@
 
 ✔ How to integrate charts, badges, and feedback mechanisms
 
-📷 Screenshots
+  📷 Screenshots
 
+![WhatsApp Image 2025-02-13 at 8 28 49 PM](https://github.com/user-attachments/assets/a8669fb7-dade-497f-97a4-35f0646a2ee1)
+
+![WhatsApp Image 2025-02-13 at 8 28 46 PM](https://github.com/user-attachments/assets/c91b9feb-0754-4937-81b0-1b55c0fb3c48)
+
+![WhatsApp Image 2025-02-13 at 8 28 52 PM](https://github.com/user-attachments/assets/fe0e4833-d8fb-42bf-bbdd-b537cc2f58a4)
+
+![WhatsApp Image 2025-02-13 at 8 28 50 PM (1)](https://github.com/user-attachments/assets/90587768-db0a-4552-acf8-e0b058c06dae)
 
 
 🚀 Why Use This? ✔ Beginner-Friendly & Well-Documented ✔ Open Source & Community Driven – Contributions welcome!
